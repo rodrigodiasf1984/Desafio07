@@ -8,12 +8,17 @@
 
 ## :rocket: Sobre o desafio
 
-Criar uma loja virtual com **Reac-Native**.
+Projeto de e-commerce criado na web para dispositivos móveis utilizando React Native. **Reac-Native**.
 
 ## :clipboard: Iniciando a aplicação
 
-1. Clone o repositório com `git clone https://github.com/rodrigodiasf1984/Desafio07.git`
-
+1. Clone o repositório com `git clone https://github.com/rodrigodiasf1984/Desafio07.git`.
+2. Entre dentro da pasta do projeto com `cd Desafio07`.
+3. Instale todas as dependencias com o comando `yarn`.
+4. Digite `json-server server.json -p 3333` para inicar a api. 
+5. É necessário ter o emulador do Android instalado e configurado 
+6. react-native start
+7. No Terminal digite `react-native run-android` 
 
 ## :hammer: Ferramentas usadas
 
