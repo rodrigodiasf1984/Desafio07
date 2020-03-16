@@ -34,6 +34,8 @@ Projeto de e-commerce criado na web para dispositivos móveis utilizando React N
 
 ## :camera: Demonstração
 Agradeço ao Juka Pedra Bjj, pela cortesia das imagens utilizadas no projeto!
+https://jukapedrabjj.ch/
+
 
 <h1 align="center">
   <img alt="resultado" src="https://github.com/rodrigodiasf1984/Desafio07/blob/master/Git_gif/Desafio07.gif?raw=true"
