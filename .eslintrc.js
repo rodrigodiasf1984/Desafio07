@@ -25,7 +25,8 @@ module.exports = {
   plugins: [
     'react',
     'prettier',
-    'import-helpers'
+    'import-helpers',
+    'react-hooks'
   ],
   rules: {
     'prettier/prettier': 'error',
@@ -49,5 +50,7 @@ module.exports = {
           alphabetize: { order: 'asc', ignoreCase: true },
       },
   ],
+  'react-hooks/rules-of-hooks':'error',
+  'react-hooks/exhaustive-deps':'warn'
   },
 };

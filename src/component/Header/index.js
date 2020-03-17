@@ -1,6 +1,6 @@
 import React from 'react';
 import Icon from 'react-native-vector-icons/MaterialIcons';
-import { connect } from 'react-redux';
+import { useSelector } from 'react-redux';
 
 import {
   Wrapper,
@@ -10,7 +10,8 @@ import {
   ItemCount,
 } from './styles';
 
-function Header({ navigation, cartSize }) {
+export default function Header({ navigation }) {
+  const cartSize = useSelector(state => state.length);
   return (
     <Wrapper>
       <BasketImage onPress={() => navigation.navigate('Home')}>
@@ -23,10 +24,3 @@ function Header({ navigation, cartSize }) {
     </Wrapper>
   );
 }
-
-export default connect(
-  state => ({
-    cartSize: state.length, // state já é o reduce cart cadastrado dentor do rootReducer
-  }),
-  null
-)(Header);
