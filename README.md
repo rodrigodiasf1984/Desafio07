@@ -3,12 +3,12 @@
 </h1>
 
 <h3 align="center">
-  Desafio 7: Loja virtual 
+  Desafio 7 & 8: Loja virtual 
 </h3>
 
 ## :rocket: Sobre o desafio
 
-Projeto de e-commerce criado na web para dispositivos móveis utilizando React Native. **Reac-Native**.
+Projeto de e-commerce criado na web para dispositivos móveis utilizando **Reac-Native & React Hooks**.
 
 ## :clipboard: Iniciando a aplicação
 
@@ -23,6 +23,7 @@ Projeto de e-commerce criado na web para dispositivos móveis utilizando React N
 ## :hammer: Ferramentas usadas
 
 - ⚛️ **React-native** - Uma biblioteca JavaScript para criar mobile Apps.
+- ⚛️ **React-Hooks** - Uma biblioteca JavaScript diminuir a verbosidade no compartilhamento de informações entre componentes, estados e ciclos de vida .
 - ⚛️ **Styled Components** - Biblioteca Javascript pra estilizar componentes.
 - 📄 **Axios** - Biblioteca Javascript para fazer requisições http.
 - 📄 **ESLint** - Biblioteca Javascript para procurar e resolver problemas no codigo, clean code.
